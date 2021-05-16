@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulário de Cadastro</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="main-content container-menu main-bg">
+      <h2 class="logo">LOGO</h2>
+      <nav class="menu">
+        <a href="">Inicio</a>
+        <a href="">Entrar</a>
+        <a href="">Cadastrar</a>
+        <a href="">Quem somos?</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="main-content-login container main-bg">
+    <div class="form white-bg">
+    <h1><center>Formulário de Cadastro</center></h1>
+    <center><ul>
+      <li>Nenhum campo pode estar vazio</li>
+      <li>Usuário só poderá conter letras e/ou números</li>
+      <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+      <li>Senha precisa ter entre 6 e 12 caracteres</li>
+    </ul></center>
+
+    <form action="/" method="POST" class="formulario">
+      <label>Nome</label>
+      <input type="text" class="nome validar">
+      <label>Sobrenome</label>
+      <input type="text" class="sobrenome validar">
+      <label>CPF</label>
+      <input type="text" class="cpf validar">
+      <label>Usuário</label>
+      <input type="text" class="usuario validar">
+      <label>Senha</label>
+      <input type="password" class="senha validar">
+      <label>Repetir senha</label>
+      <input type="password" class="repetir-senha validar">
+      
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+    
+
+  </section>
+
+  <script src="./assets/js/validaCPF.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

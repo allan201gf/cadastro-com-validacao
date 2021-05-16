@@ -1,0 +1,124 @@
+:root {
+  --primary-color: #EE5522;
+  --secundary-color: #ffaf38d8;
+  --white-color: #ffffff;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.main-bg {
+  background-image: url(../img/main-bg.svg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.white-bg {
+  background: var(--white-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: center;
+  height: 94vh;
+ }
+
+ .main-content-login {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: center;
+  min-height: 94vh;
+ }
+
+.container-menu {
+  display: flex;
+  flex-direction: row; /* coloca um elemento ao lado do outro */
+  align-items: center;
+  justify-content: space-between;
+  height: 6vh;
+  padding: 1rem 5rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--white-color);
+  margin: 1.5rem;
+  font-size: 2rem;
+  position: relative;
+  padding: 1rem;
+  transition: all 300ms ease-in-out;
+}
+
+.menu a:hover {
+  background: var(--secundary-color);
+}
+
+.form {
+  width: 55rem;
+  min-height: 50rem;
+  border-radius: 2rem;
+  padding: 1.2rem;
+
+
+}
+
+.form ul {
+  list-style: none;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+}
+
+form input {
+  height: 4rem;
+  padding: 0 20px;
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all 300ms ease-in-out;
+}
+
+form button:hover {
+  background: var(--secundary-color);
+}
+
+.error-text {
+  font-size: 12px;
+  color: red;
+}
