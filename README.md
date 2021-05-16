@@ -1,6 +1,6 @@
-# Página de login com validação de dados
+# Página de cadastro com validação de dados
 
-Projeto de página de login feita em HTML, CSS e Javascript com as seguintes validações:
+Projeto de página de cadastro feita em HTML, CSS e Javascript com as seguintes validações:
 
 - Nenhum campo pode estar vazio;
 - Usuário só poderá conter letras e/ou números;
